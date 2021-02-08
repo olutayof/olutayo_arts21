@@ -1,0 +1,45 @@
+body {
+	background: #8A2C0D;
+}
+
+.eng {
+	position: absolute;
+width: 868px;
+height: 958px;
+left: -261px;
+top: -80px;
+}
+
+.wed {
+	position: absolute;
+	width: 615px;
+	height: 744px;
+	left: 415px;
+	top: 89px;
+}
+
+.sad {
+	position: absolute;
+	width: 735px;
+	height: 643px;
+	left: 800px;
+	top: 235px;
+}
+ h3 {
+ 	position: absolute;
+	width: 756px;
+	height: 56px;
+	left: 524px;
+	top: -15px;
+
+
+	font-family: Apple LiSung;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 64px;
+	text-align: center;
+
+	color: #F9F4E2;
+
+ }

@@ -1,0 +1,28 @@
+body {
+	background: #F9F4E2;
+}
+
+h3 {
+	position: absolute;
+	width: 535px;
+	height: 346px;
+	left: 19px;
+	top: 92px;
+
+	font-family: Apple LiSung;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 48px;
+	text-align: center;
+
+	color: #8A2C0D;
+}
+
+img {
+	position: absolute;
+	width: 1460px;
+	height: 845px;
+	left: -18px;
+	top: 33px;
+}

@@ -1,0 +1,57 @@
+body {
+	background: #F9F4E2;
+}
+.h1 {
+	position: absolute;
+	width: 850px;
+	height: 190px;
+	left: 0px;
+	top: 143px;
+}
+
+.h2 {
+	position: absolute;
+	width: 817px;
+	height: 166px;
+	left: 449px;
+	top: 516px;
+	mix-blend-mode: darken;
+}
+
+.h3 {
+	position: absolute;
+	width: 856px;
+	height: 125px;
+	left: 15px;
+	top: 11px;
+	mix-blend-mode: darken;
+}
+
+.h4 {
+	position: absolute;
+	width: 1195px;
+	height: 140px;
+	left: 32px;
+	top: 351px;
+	mix-blend-mode: darken;
+
+}
+
+.trend {
+	position: absolute;
+width: 620px;
+height: 250px;
+left: 827px;
+top: 136px;
+
+}
+
+.small {
+	position: absolute;
+	position: absolute;
+	width: 373px;
+	height: 413px;
+	top: 480px;
+	transform: matrix(-1, 0, 0, 1, 0, 0);
+	left: 0px;
+}

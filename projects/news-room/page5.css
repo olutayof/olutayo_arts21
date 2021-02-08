@@ -1,0 +1,60 @@
+body {
+	background: #F9F4E2;
+}
+.h1 {
+	position: absolute;
+	width: 615px;
+	height: 165px;
+	left: 15px;
+	top: 178px;
+
+	mix-blend-mode: darken;
+}
+
+.h2 {
+	position: absolute;
+	width: 746px;
+	height: 117px;
+	left: 358px;
+	top: 36px;
+
+	mix-blend-mode: darken;
+}
+
+.h3 {
+	position: absolute;
+	width: 836px;
+	height: 115px;
+	left: 86px;
+	top: 532px;
+
+	mix-blend-mode: darken;
+}
+
+.h4 {
+	position: absolute;
+	width: 839px;
+	height: 117px;
+	left: 358px;
+	top: 368px;
+
+	mix-blend-mode: darken;
+}
+
+.h5 {
+	position: absolute;
+	width: 635px;
+	height: 195px;
+	left: 630px;
+	top: 148px;
+
+	mix-blend-mode: darken;
+}
+
+.diana {
+	position: absolute;
+	width: 427px;
+	height: 589px;
+	left: 1051px;
+	top: 322px;
+}

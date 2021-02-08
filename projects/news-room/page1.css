@@ -1,0 +1,45 @@
+body {
+	background: #8A2C0D;
+}
+h1 {
+	position: absolute;
+	width: 524px;
+	height: 159px;
+	left: 0px;
+	top: 0px;
+
+
+	font-family: Arapey;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 144px;
+	line-height: 158px;
+	text-align: center;
+
+	color: #F9F4E2;
+
+}
+h4 {
+	position: absolute;
+	width: 578px;
+	height: 81px;
+	left: 21px;
+	top: 159px;
+	
+	font-family: Apple LiSung;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 48px;
+	text-align: center;
+
+	color: #F9F4E2;
+}
+
+img {
+	position: absolute;
+	width: 1453px;
+	height: 839px;
+	left: 0px;
+	top: 205px;
+}

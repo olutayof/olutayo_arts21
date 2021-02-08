@@ -1,0 +1,30 @@
+body {
+	background: #8A2C0D;
+}
+
+h3 {
+	position: absolute;
+	width: 888px;
+	height: 276px;
+	left: 493px;
+	top: 212px;
+
+	font-family: Arapey;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 53px;
+	text-align: center;
+
+	color: #F9F4E2;
+
+}
+
+img {
+	position: absolute;
+	width: 937px;
+	height: 933px;
+	left: 0px;
+	top: -30px;
+
+}

@@ -6,8 +6,9 @@ h3 {
 	position: absolute;
 	width: 697px;
 	height: 271px;
-	left: 463px;
-	top: 224px;
+	left: 393px;
+	top: 223px;
+
 
 	font-family: Apple LiSung;
 	font-style: normal;
@@ -19,10 +20,18 @@ h3 {
 	color: #F9F4E2;
 }
 
-img {
+.g1 {
 	position: absolute;
 	width: 340px;
 	height: 820px;
-	left: 126px;
+	left: 42px;
 	top: 16px;
+}
+
+.g2 {
+	position: absolute;
+	width: 485px;
+	height: 840px;
+	right: 0px;
+	top: -1px;
 }

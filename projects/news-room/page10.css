@@ -4,7 +4,7 @@ body {
 .h1 {
 	position: absolute;
 	width: 850px;
-	height: 190px;
+	height: 210px;
 	left: 0px;
 	top: 143px;
 }
@@ -13,7 +13,7 @@ body {
 	position: absolute;
 	width: 817px;
 	height: 166px;
-	left: 449px;
+	left: 32px;
 	top: 516px;
 	mix-blend-mode: darken;
 }
@@ -39,19 +39,16 @@ body {
 
 .trend {
 	position: absolute;
-width: 620px;
-height: 250px;
-left: 827px;
-top: 136px;
-
+	width: 620px;
+	height: 250px;
+	left: 827px;
+	top: 136px;
 }
 
 .small {
 	position: absolute;
-	position: absolute;
 	width: 373px;
 	height: 413px;
-	top: 480px;
-	transform: matrix(-1, 0, 0, 1, 0, 0);
-	left: 0px;
+	top: 476px;
+	right: 0px;
 }

@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "ahg";
+  src: url("ahg/ahgbold.TTF");
+  }
+
+  body {
+  	background: black;
+  }
+
+  h3 {
+  	font-family: ahg; 
+  	color: white;
+  	font-size: 60px;
+  }
+
+  img { 
+  	display: none;
+   }
+
+  .one {
+  	position:absolute;
+  	top:-50px;
+  	left:0px;
+  }
+  .one:hover + img{
+  	display: block;
+  }
+  .dates:hover .front {
+  	display: none;
+  }
+
+  .two {
+  	position:absolute;
+  	top:-50px;
+  	right:0px;
+  }
+  .two:hover + img{
+  	display: block;
+  }
+
+  .three {
+  	position:absolute;
+  	bottom:-30px;
+  	left:0px;
+  }
+  .three:hover + img{
+  	display: block;
+  }
+
+  .four {
+  	position:absolute;
+  	bottom:-30px;
+  	right:0px;
+  }
+  .four:hover + img{
+  	display: block;
+  }
+  
+.front {
+	position: absolute;
+	display: block;
+	height: 600px;
+	width: 900px;
+	left: 20%;
+	top:10%;
+}
+

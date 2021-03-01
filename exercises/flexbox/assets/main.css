@@ -1,0 +1,105 @@
+@font-face {
+	font-family: typefesse;
+	src: url(typefesse-master/fonts/otf/typefesse_claire-obscure.otf);
+}
+@font-face {
+	font-family: manrope;
+	src: url(manrope/fonts/ttf/Manrope-Light.ttf);
+}
+@media screen and (min-width: 300px)and (max-width:768px){
+	.container {
+		margin-top:200px;	
+	}
+	.container div {
+		font-size: 350%;
+		
+	}
+	.container h3 {
+		font-size: 550%;
+	}
+	body {
+		background-color: black;
+	}
+	img {
+		width: auto;
+  		height: 100%;
+	}
+	.cc {
+		background: #ffa1c2;
+		}
+}
+
+@media screen and (min-width:769px) and (max-width:992px){
+	.container {
+		margin-top:150px;
+	}
+	.container div {
+		font-size: 500%;
+	}
+	.container h3{
+		font-size: 1000%;
+	}
+	.cc {
+		background-color: black;
+		color: white;
+	}
+	body {
+		background-color: #ffa1c2;
+	}
+}
+@media screen and (min-width:992px) and (max-width:1600px){
+	.cc {
+		background: #ffa1c2;
+		}
+	}
+
+h3 {
+	text-align: center;
+	position: -webkit-sticky;
+	position: sticky;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+	font-family: typefesse;
+	font-size: 200px;
+	font-weight: normal;
+	width:max-content;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container div {
+	text-align: center;
+	position: -webkit-sticky;
+	position: sticky;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.newf {
+	font-family: manrope;
+	font-size: 90px;
+	font-weight: bold;
+}
+.small {
+	font-family: manrope;
+	font-size: 70px;
+	font-weight: normal;
+}
+
+img {
+	position: fixed;
+	right:0px;
+	top:0px;
+	z-index: -1;
+	height:100%;
+}
+
+

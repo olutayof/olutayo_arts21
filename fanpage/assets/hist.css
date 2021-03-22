@@ -1,0 +1,101 @@
+@font-face {
+	font-family: egyptienne;
+	src: url(egyptienne.ttf);
+}
+
+body {
+	margin:0px;
+	background-color: #F29863;
+	background-blend-mode: color-dodge;
+	font-family: egyptienne;
+	font-size: 90px;
+}
+body::before {
+	content: "";
+	background-image: url("horse.gif");
+	background-size: 300px;
+	opacity: .25;
+	position: absolute;
+	background-repeat: repeat;
+	top: 0px;
+    right: 0px;
+    bottom: -2300px;
+    left: 0px;
+    z-index: -1;
+}
+img {
+	padding-right: 45px;
+}
+.cap:hover {
+	background: #000000;
+	color: #F29863;
+	width:max-content;
+	height: max-content;
+}
+.home {
+	background: #000000;
+	position: absolute;
+	top:0px;
+	right:0px;
+	font-size: 60px;
+	color: #F29863;
+	width:max-content;
+}
+.emp {
+	font-size: 90px;
+	margin-bottom:20px;
+	margin-top: 50px;
+	width: 100%;
+	border-top:13px solid #000000;
+	border-bottom:13px solid #000000;
+	text-align: center;
+}
+.sec1 {
+	display:flex;
+	flex-direction: row;
+	width: 800px;
+	margin-left: 10px;
+	margin-top: 70px;
+}
+.overlay {
+	display:none;
+	font-size: 50px;
+}
+.image:hover .overlay {
+    width:max-content;
+    height:max-content;
+    background:#000000;
+    color: #F29863;
+    position:relative;
+    top:0;
+    left:0;
+    display:inline-block;
+}
+.sec2 {
+	display:flex;
+	flex-direction: row;
+	margin-left: 10px;
+	margin-top: 50px;
+
+}
+.sec3 {
+	display:flex;
+	flex-direction: column;
+}
+.sec4 {
+	display:flex;
+	flex-direction: column;
+}
+.sep > img {
+	width: 600px;
+	height:600px;
+	filter: drop-shadow(14px 5px 4px #000000);
+}
+.m {
+	margin-top: 50px;
+	margin-left: 300px;
+}
+.m > img {
+	width: 870px;
+	height:430px;
+}

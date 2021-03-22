@@ -1,0 +1,47 @@
+@font-face {
+	font-family: egyptienne;
+	src: url(egyptienne.ttf);
+}
+
+body {
+	margin:0px;
+	background-color: #F29863;
+	background-blend-mode: color-dodge;
+	font-family: egyptienne;
+	font-size: 120px;
+	color: #F29863;
+}
+body::before {
+	content: "";
+	background-image: url("horse.gif");
+	background-size: 300px;
+	opacity: .25;
+	position: absolute;
+	background-repeat: repeat;
+	top: 0px;
+    right: 0px;
+    bottom: -200px;
+    left: 0px;
+    z-index: -1;
+}
+a:link {
+	color: #E1DFD2;
+}
+a:visited {
+	color: #000000;
+}
+.container {
+	position: relative;
+	top:200px;
+	bottom:300px;
+	display:flex;
+	flex-direction: column;
+}
+.one {
+	background: #000000;
+	mix-blend-mode: darken;
+	width: max-content;
+} 
+a:visited > .one {
+	background: #F29863;
+}

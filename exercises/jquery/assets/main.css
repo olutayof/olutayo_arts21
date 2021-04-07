@@ -1,0 +1,37 @@
+body {
+	font-family: futura;
+	font-size: 60px;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+}
+.button {
+	border: 3px solid;
+	padding: 10px;
+	width:max-content;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+}
+
+.button:hover {
+	cursor:
+	url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>👀</text></svg>") 16 0,auto; 
+	background: #eb34cf;
+}
+.e1 {
+	transform: scale(2);
+	position: absolute;
+    top: 20%;
+    bottom: 20%;
+    left:30%;
+}
+.e2 {
+	transform: scale(2);
+	position: absolute;
+    top: 20%;
+    bottom: 20%;
+    left:30%;
+}
+

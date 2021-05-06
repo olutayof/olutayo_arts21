@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "karrik";
+  src: url("karrik.ttf");
+}
+
+body {
+  font-family: karrik;
+	font-size: 30px;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	position: absolute;
+	left:40px;
+	right:40px;
+}
+.inner {
+	display: flex;
+	flex-direction: column;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.title {
+	font-size: 100px;
+  background-color: #F29863;
+}
+ img {
+ 	transform: scale(.75);
+  border: solid 10px black;
+ }
+  .cap {
+  	width: 600px;
+  	padding-left: 300px;
+  	
+  }
+  .cap1 {
+  	margin-left: 300px;
+  	font-style: bold;
+  	font-size: 40px;
+    background-color: #F29863;
+    width: max-content;
+  }
+  .index {
+  	position: fixed;
+  	top:20;
+  	right:5px;
+  	font-size: 40px;
+    background-color: #F29863;
+    z-index: 100;
+  }
+  a:link {
+	color:#870C1E;
+	text-decoration: none;
+}

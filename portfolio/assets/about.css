@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "karrik";
+  src: url("karrik.ttf");
+}
+
+body {
+  font-family: karrik;
+	font-size: 60px;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	position: absolute;
+	left:40px;
+	right:40px;
+  margin-bottom: 40px;
+}
+.inner {
+	display: flex;
+	flex-direction: column;
+  margin-left: 300px;
+}
+.title {
+	font-size: 100px;
+  background-color: #ddc9ff;
+  width:max-content;
+  padding-bottom: 0px;
+  margin-left: 200px;
+}
+
+.cap {
+  width: 900px;
+  	
+  }
+.index {
+  	position: fixed;
+  	top:20;
+  	right:5px;
+  	font-size: 40px;
+    background-color: #ddc9ff;
+    z-index: 100;
+  }
+a:link {
+	color:#870C1E;
+	text-decoration: none;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+
+}
+.col div {
+  background-color: #ddc9ff;
+  width: max-content;
+  margin-bottom: 20px;
+}
+
+img {
+  height: 900;
+  width: 500px;
+  padding-bottom: 50px;
+  margin-top: -150px;
+  margin-left: 200px;
+}

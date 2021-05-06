@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "karrik";
+  src: url("karrik.ttf");
+}
+
+body {
+  font-family: karrik;
+	font-size: 30px;
+  max-width: 1600px;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	position: absolute;
+	left:40px;
+	right:40px;
+}
+.inner {
+	display: flex;
+	flex-direction: column;
+  text-align: center;
+}
+.title {
+	font-size: 100px;
+	background-color: #D4D955;
+  width: 1200px;
+}
+  .cap {
+  	width: 600px;
+  	margin-left: 400px;
+    padding-top: 50px;
+  	
+  }
+  .cap1 {
+  	margin-left: 400px;
+  	font-style: bold;
+  	font-size: 40px;
+    background-color: #D4D955;
+    width: max-content;
+  }
+  .index {
+  	position: fixed;
+  	top:20;
+  	right:5px;
+  	font-size: 40px;
+    background-color: #D4D955;
+    width:max-content;
+    z-index: 1000;
+  }
+img {
+    width: 700px;
+    height: 500px;
+    border: 10px solid #D4D955;
+    margin-right: 20px;
+}
+a:link {
+	color:#870C1E;
+	text-decoration: none;
+}
+.b img {
+  width: 750px;
+  height: 400px;
+}
+.b {
+  display: flex;
+  flex-direction: row;
+  width: 1100px;
+  margin-left: 100px;
+  overflow-x: scroll;
+  height: 450px;
+}
+.row img {
+  margin-left: 30px;
+}
+
+.inner div {
+ margin-bottom: 30px;
+}
+.groupone {
+  margin-left: 100px;
+}
+.groupone img {
+  width: 300px;
+}
+.grouptwo img {
+  width: 300px;
+  border: none;
+}
+
+.grouptwo {
+  margin-left: 100px;
+}
+
+

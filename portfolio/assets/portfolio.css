@@ -1,0 +1,115 @@
+@font-face {
+  font-family: "karrik";
+  src: url("karrik.ttf");
+}
+
+@font-face {
+  font-family: "karrikit";
+  src: url("karrikit.ttf");
+}
+
+body {
+	font-size: 30px;
+	font-family: karrik;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	position: absolute;
+	left:40px;
+	right:40px;
+	padding-bottom: 40px;
+}
+.inner .text {
+	display: flex;
+	flex-direction: column;
+	font-size: 100px;
+	background-color: #ddc9ff;
+	margin-bottom: 40px;
+	font-family: karrikit;
+	width: max-content;
+}
+p {
+	padding:0px;
+}
+.name {
+	font-size: 100px;
+	background-color: #ddc9ff;
+	width: max-content;
+}
+
+a:link {
+	color:black;
+	text-decoration: none;
+}
+
+a : visited {
+	color:black;
+}
+.hide img {
+	display: none;
+}
+.proj:hover .hide img {
+	display: inherit;
+	width: 150px;
+  	height: 150px;
+	margin: 0px;
+}
+.g {
+	position: relative;
+	z-index: 1000;
+	left: 1050px;
+	top: -200px;
+}
+.k {
+	position: relative;
+	z-index: 1060;
+	left: 300px;
+	top: -200px;
+}
+.m {
+	position: relative;
+	z-index: 1000;
+	left: 1210px;
+	top: -200px;
+}
+.about {
+	font-size: 40px;
+	position: fixed;
+	right: 10px;
+	top:10px;
+	display: flex;
+	flex-direction: row;
+	z-index: 1000;
+}
+.about div {
+	margin-left: 20px;
+	background-color: #ddc9ff;
+}
+.row {
+	display: flex;
+	flex-direction: row;
+	margin-left: 20px;
+	overflow: auto;
+}
+a:hover img {
+	transform: scale(1.2);
+}
+.col {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.row img {
+	height: 200px;
+	width: 200px;
+	margin-left: 20px;
+	background-color: transparent;
+}
+.row a {
+	background-color: none;
+}
+.caption {
+	background-color: #ddc9ff;
+}

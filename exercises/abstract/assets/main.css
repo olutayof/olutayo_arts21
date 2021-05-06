@@ -1,3 +1,19 @@
 body {
-	background: #000000;
+	background-color: #000000;
+}
+
+@keyframes smush {
+  0%   { transform: scale(.7); }
+  30%   { transform: scale(1.2); }
+  60%  { transform: scale(1.4); }
+  100% { transform: scale(1.8); }
+}
+
+.item {
+	animation: smush 4s ease-in-out infinite;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
 }

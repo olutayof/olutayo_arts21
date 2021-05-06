@@ -1,0 +1,84 @@
+@font-face {
+  font-family: neue;
+  src: url(neue.otf);
+}
+
+@font-face {
+  font-family: terminal;
+  src: url(terminal.ttf);
+}
+
+body {
+	background-image: url(silv.jpeg);
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	left:200px;
+}
+h1 {
+	font-family: neue;
+	font-size:  200px;
+	background-color: #db5004;
+	width: 700px;
+	}
+
+h2 {
+	font-family: neue;
+	font-weight: bold;
+	font-size: 160px;
+	background-color: white;
+	width: 800px;
+}
+
+h3 {
+	font-family: neue;
+	font-size: 140px;
+}
+
+p {
+	font-family: terminal;
+	font-size: 50px;
+	line-height: 160%;
+	letter-spacing: 140%;
+}
+
+section {
+	padding: 30px;
+	border: 4px solid black;
+	width: 1000px;
+	margin-bottom: 40px;
+	background-color: #db5004;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+}
+.col {
+	display: flex;
+	flex-direction: column;
+}
+
+ol {
+	font-family: neue;
+	font-size: 50px;
+	line-height: 160%;
+	letter-spacing: 140%;
+}
+
+figcaption {
+	font-family: neue;
+	font-size: 30px;
+	line-height: 160%;
+	letter-spacing: 140%;
+}
+td {
+	padding: 10px;
+}
+
+table {
+	background-color: white;
+}
+hr {
+ 	background-color: white;
+ }

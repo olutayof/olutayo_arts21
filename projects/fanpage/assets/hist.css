@@ -13,10 +13,10 @@ body {
 body::before {
 	content: "";
 	background-image: url("horse.gif");
-	background-size: 300px;
-	opacity: .35;
+	background-size: 500px;
+	background-repeat: repeat-x;
+	opacity: .25;
 	position: absolute;
-	background-repeat: repeat;
 	top: 0px;
     right: 0px;
     bottom: -2300px;
@@ -25,6 +25,9 @@ body::before {
 }
 img {
 	padding-right: 45px;
+}
+.cap {
+	font-family: georgia;
 }
 .cap:hover {
 	background: #000000;

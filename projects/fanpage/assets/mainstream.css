@@ -13,10 +13,10 @@ body {
 body::before {
 	content: "";
 	background-image: url("horse.gif");
-	background-size: 300px;
-	opacity: .35;
+	background-size: 500px;
+	background-repeat: repeat-x;
+	opacity: .25;
 	position: absolute;
-	background-repeat: repeat;
 	top: 0px;
     right: 0px;
     bottom: -700px;
@@ -78,6 +78,7 @@ img {
 	flex-direction: column;
 }
 .cap {
+	font-family: georgia;
 	width:800px;
 	margin-left: 30px;
 	margin-top:30px;

@@ -13,10 +13,10 @@ body {
 body::before {
 	content: "";
 	background-image: url("horse.gif");
-	background-size: 300px;
-	opacity: .35;
+	background-size: 500px;
+	background-repeat: repeat-x;
+	opacity: .25;
 	position: absolute;
-	background-repeat: repeat;
 	top: 0px;
     right: 0px;
     bottom: -1000px;
@@ -89,6 +89,7 @@ img {
 .pay {
 	margin-top: 50px;
 	margin-right: 20px;
+	font-family: georgia;
 }
 .pay:hover {
 	background: #000000;

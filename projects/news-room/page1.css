@@ -35,6 +35,12 @@ h4 {
 
 	color: #F9F4E2;
 }
+.hide {
+	display: none;
+	font-size: 40px;
+	background-color: #8A2C0D;
+	color:#F9F4E2;
+}
 
 img {
 	position: absolute;
@@ -42,4 +48,11 @@ img {
 	height: 839px;
 	left: 0px;
 	top: 205px;
+}
+a:hover .hide {
+	display: inline-block;
+	z-index: 10000;
+	position: relative;
+	top: 700px;
+	left:300px;
 }

@@ -1,7 +1,14 @@
 body {
-	background: #F9F4E2;
+	background: #8A2C0D;
 }
-
+.home {
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	background-color:#F9F4E2;
+	font-size: 40px; 
+	color: #8A2C0D;
+}
 .t1 {
 	position: absolute;
 	width: 451px;
